@@ -1,0 +1,24 @@
+body {
+    background: url(../img/background.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+.content {
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+}
+
+.sidemenu ul, .content, footer {
+    background-color: rgba(2, 23, 56, 0.89);
+    box-shadow: 1px 1px 15px rgba(2, 23, 56, 0.89);
+}
+
+.sidemenu ul {
+    font-size: 18px;
+    border-radius: 32px;
+}
+
+.sidemenu ul li a:hover {
+    background-color: #343a40;
+    text-decoration: none;
+}
